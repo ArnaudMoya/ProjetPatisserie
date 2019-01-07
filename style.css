@@ -1,17 +1,56 @@
 /** HEADER **/
-section#coco{
-	height: 600px;
-}
 .carousel-item ,.active{
 	width: 100%;
 	max-height: 550px;
-	
-
 }
 .carousel-item img {
-	
+	max-height: 500px;	
 }
 
+img.coco{
+	height: 25%;
+	width: 25%;
+	margin-bottom: 8%;
+}
+h2#Natharine{
+	font-size: 3em;
+	font-family: 'Great Vibes', cursive;
+	color: black;
+}
+
+img.coco1{
+	margin-bottom: 3%;
+	height: 25%;
+	width: 25%;
+}
+
+/* navbar */
+nav#viveleriz{
+	background-color: white;
+}
+.navbar li{
+	text-align: center;
+	margin-left: 10%;
+	
+	
+}	
+.nav-link{
+	color: black;
+}
+
+
+/* footer */
+footer{
+	background: #444444
+}
+footer ul{
+	margin: 20px;
+	list-style-type: none;
+}
+footer a{
+	color: white;
+	font-weight: bold;
+}
 
 
 
