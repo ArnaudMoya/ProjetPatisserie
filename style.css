@@ -35,7 +35,11 @@ img.coco1{
 	color: white;
 	font-size: 130%;
 }
-
+/*Formulaire de Contact*/
+h2{
+	text-align:center; 
+	margin-top:40px;
+}
 
 /* footer */
 footer{
@@ -83,7 +87,7 @@ div.copy{
 }
 }
 
- 
+justify-content-around
 
 /** Medium devices (tablets, 768px and up) **/
 @media (min-width: 768px) { 
