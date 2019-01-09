@@ -241,3 +241,44 @@ article .bloc_bio{
 	height: 550px;
 }
 }
+
+
+/*Formulaire de Contact*/
+.formFont{
+	font-family: 'Great Vibes', cursive;
+	font-size: 2em;
+}
+.formContact{
+	background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(245, 246, 248, 0.50), 
+      rgba(245, 246, 248, 0.50)
+	),
+	url(IMG/macaron.jpg);
+	/*background-color: rgba(245, 246, 248,1); */
+}
+.text-muted{
+	color:black;
+}
+.btnSend{
+	background-color: rgba(179, 183, 191,1); 
+	border: 0;
+}
+.btnSend:hover{
+	background-color: rgb(148, 167, 206);
+}
+
+/* css galeries */
+.gal{
+	margin: auto 10%;	
+	box-shadow: 10px 10px 3px lightgrey;
+}
+.my{
+	border-bottom : 5px solid lightgrey;
+	border-left : 5px solid lightgrey;
+}
+.myright{
+	text-align: right;
+}
+/*css galeries*/
