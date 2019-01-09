@@ -46,8 +46,17 @@ h3{
 	font-size: 2em;
 }
 .formContact{
-	/*background: url(IMG/macaron.jpg);*/
-	background-color: rgba(245, 246, 248,1); 
+	background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(245, 246, 248, 0.50), 
+      rgba(245, 246, 248, 0.50)
+	),
+	url(IMG/macaron.jpg);
+	/*background-color: rgba(245, 246, 248,1); */
+}
+.text-muted{
+	color:black;
 }
 .btnSend{
 	background-color: rgba(179, 183, 191,1); 
