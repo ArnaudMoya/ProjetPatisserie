@@ -39,69 +39,71 @@
             </div>
          </section>
          <!-- nav -->
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">NatharineB</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav">
-                  <li class="nav-item active">
-                     <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Galerie</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Biographie</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link disabled" href="#">Contact</a>
-                  </li>
-               </ul>
-            </div>
-         </nav>
+               <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                     <a class="navbar-brand" href="#">NatharineB</a>
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item active"">
+                                 <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Galerie</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Biographie</a>
+                           </li>  
+                           <li class="nav-item">
+                                 <a class="nav-link" href="#">Contact</a>
+                           </li> 
+                        </ul>
+                     </div>
+                       
+               </nav>
       </header>
       
       <!-- Formulaire Contact -->
-      <div class="container form-group">
+      <div class="container card form-group formContact" style="width: 50rem; margin-top:10px; margin-bottom:10px;">
             <div class="row justify-content-around">
-                  <div class="col-sm-6">
+                  <div class="col-sm-6 ">
                      <h3>Contact</h3>
                   </div>
             </div>  
          
             <form>
-                  <div class="row justify-content-around">
-                        <div class="col-sm-6">
-                              <label class="formFont" for="ImputLastName">Nom</label>
-                           <input id="ImputLastName" type="text" class="form-control" placeholder="">
-                        </div>
-                  </div>
-                  <div class="row justify-content-around">
-                        <div class="col-sm-6">
-                           <label class="formFont" for="ImputName">Prénom</label>
-                           <input id="ImputName" type="text" class="form-control" placeholder="">
-                        </div>
-                  </div>
-                  <div class="row justify-content-around">
-                        <div class="col-sm-6">   
-                           <label class="formFont" for="exampleInputEmail1">Email</label>
-                           <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="exemple@email.com">
-                           <small id="emailHelp" class="form-text text-muted">Nous ne partageons pas vos données personnelles</small>
-                        </div>
-                  </div>
-                  <div class="row justify-content-around">      
-                        <div class="col-sm-6">
-                           <label class="formFont" for="comment">Message :</label>
-                           <textarea class="form-control" rows="5" id="comment"></textarea>
-                        </div> 
-                  </div>
-                  <div class="row justify-content-around">      
-                        <div class="col-sm-6">
-                              <button type="submit" class="btn btn-primary"style="margin-top:10px">Envoyer</button>
-                        </div>
-                  </div>
+               
+               <div class="row justify-content-around">
+                     <div class="col-sm-6">
+                           <label class="formFont" for="ImputLastName">Nom</label>
+                        <input id="ImputLastName" type="text" class="form-control" placeholder="">
+                     </div>
+               </div>
+               <div class="row justify-content-around">
+                     <div class="col-sm-6">
+                        <label class="formFont" for="ImputName">Prénom</label>
+                        <input id="ImputName" type="text" class="form-control" placeholder="">
+                     </div>
+               </div>
+               <div class="row justify-content-around">
+                     <div class="col-sm-6">   
+                        <label class="formFont" for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="exemple@email.com">
+                        <small id="emailHelp" class="form-text text-muted">Nous ne partageons pas vos données personnelles</small>
+                     </div>
+               </div>
+               <div class="row justify-content-around">      
+                     <div class="col-sm-6">
+                        <label class="formFont" for="comment">Message :</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                     </div> 
+               </div>
+               <div class="row justify-content-around">      
+                     <div class="col-sm-6">
+                           <button type="submit" class="btn btn-primary btnSend"style="margin-top:10px; margin-bottom:10px;">Envoyer</button>
+                     </div>
+               </div>
             </form>
       </div>
 

@@ -30,12 +30,9 @@ img.coco1{
 
 /* navbar */
 
-
 .nav-link{
-	color: white;
 	font-size: 130%;
 }
-
 h3{
 	font-size: 4em;
 	text-align:center; 
@@ -47,6 +44,17 @@ h3{
 .formFont{
 	font-family: 'Great Vibes', cursive;
 	font-size: 2em;
+}
+.formContact{
+	/*background: url(IMG/macaron.jpg);*/
+	background-color: rgba(245, 246, 248,1); 
+}
+.btnSend{
+	background-color: rgba(179, 183, 191,1); 
+	border: 0;
+}
+.btnSend:hover{
+	background-color: rgb(148, 167, 206);
 }
 /* footer */
 footer{
