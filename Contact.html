@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="style.css">
       <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-      <title>Bonillio</title>
+      <title>Bonillio - Contact</title>
    </head>
    <!-- Contenu du site -->
    <body>
@@ -62,14 +62,43 @@
             </div>
          </nav>
       </header>
-      <!-- Bannière Carousel -->
-      <section>
-      </section>
-      <!-- Article photo + résumé -->
-      <section>
-      </section>
-      <br> 
-      <!-- Footer -->
+      
+      <!-- Formulaire Contact -->
+      <div class="container form-group">
+         <form>
+               <div class="row">
+                     <div class="col">
+                           <label for="ImputLastName">Nom</label>
+                        <input id="ImputLastName" type="text" class="form-control" placeholder="">
+                     </div>
+               </div>
+               <div class="row">
+                     <div class="col">
+                        <label for="ImputName">Prénom</label>
+                        <input id="ImputName" type="text" class="form-control" placeholder="">
+                     </div>
+               </div>
+               <div class="row">
+                     <div class="col">   
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="exemple@email.com">
+                        <small id="emailHelp" class="form-text text-muted">Nous ne partageons pas vos données personnelles</small>
+                     </div>
+               </div>
+               <div class="row">      
+                     <div class="col">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                     </div> 
+               </div>
+               <div class="row">      
+                     <div class="col">
+                           <button type="submit" class="btn btn-primary"style="margin-top:10px">Envoyer</button>
+                     </div>
+               </div>
+         </form>
+      </div>
+     
       <footer>
          <div class="card bg-dark text-white">
             <img class="card-img" src="IMG/macaron.jpg" alt="Card image">
