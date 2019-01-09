@@ -6,7 +6,19 @@
 .carousel-item img {
 	max-height: 500px;	
 }
-
+/* css galeries */
+.gal{
+	margin: auto 10%;	
+	box-shadow: 10px 10px 3px lightgrey;
+}
+.my{
+	border-bottom : 5px solid lightgrey;
+	border-left : 5px solid lightgrey;
+}
+.myright{
+	text-align: right;
+}
+/*css galeries*/
 img.coco{
 	height: 25%;
 	width: 25%;
