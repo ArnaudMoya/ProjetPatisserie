@@ -8,7 +8,6 @@
 }
 .carousel-item img {
 	max-height: 550px;	
-	
 }
 
 
@@ -175,51 +174,6 @@ div.copy{
 	background-color: black;
 }
 
-
-
-
-/** Small devices (landscape phones, 576px and up) **/
-@media (max-width: 576px) { 
-.card-img{
-	height: 150px;
-}
-.carousel-item img{
-	height: 230px;
-}
-
-
- 
-
-/** Medium devices (tablets, 768px and up) **/
-@media (min-width: 768px) { 
-	.card-img{height: 150px;}
-	.carousel-item img{
-		height: 350px;
-	}
-	
- }
-
-/** Large devices (desktops, 992px and up) **/
-@media (min-width: 992px) { 
-.card-img{
-	height: 150px;
-}
-}
-
- 
-
-/** Extra large devices (large desktops, 1200px and up) **/
-@media (min-width: 1200px) {
-.card-img{
-	height: 150px;
-}
-.carousel-item img{
-	height: 550px;
-}
-}
-
-/* BIOOOOOOOO */
-
 /* biographie */
 article .biographie{
 	padding: 15px;
@@ -244,4 +198,46 @@ article .bloc_bio{
 .img_bio:hover{
 	-webkit-filter: blur(2px);
 	width: 250px;
+}
+
+
+/** Small devices (landscape phones, 576px and up) **/
+@media (max-width: 576px) { 
+.card-img{
+	height: 150px;
+}
+.carousel-item img{
+	height: 230px;
+}
+}
+
+
+ 
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) { 
+	.card-img{height: 150px;}
+	.carousel-item img{
+		height: 350px;
+	}
+	
+ }
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) {
+.card-img{
+	height: 150px;
+}
+}
+
+ 
+
+/** Extra large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) {
+.card-img{
+	height: 150px;
+}
+.carousel-item img{
+	height: 550px;
+}
 }
