@@ -174,23 +174,33 @@ div.copy{
 	background-color: black;
 }
 
-/* biographie */
-article .biographie{
-	padding: 15px;
-	margin-top: 40px;
+/* Social Media */
+.socialMedia{
+	position: fixed;
+	display: flex;
+	background: #444444;
+	flex-direction: column;
+	border-radius: 5px;
+	right: 0%;
+	top: 70%;
+	z-index: 3;
 }
+.imgMedia{
+	margin: 10px;
+	height: 50px;
+}
+
+/* biographie */
 article .bloc_bio{
 	margin-bottom: 75px;
 	margin-top: 75px;
 }
 .bloc_bio p{
-	width: 700px;
 	font-size: 1.1em;
 	text-align: justify;
 }
 .bloc_bio h2{
 	text-align: center;
-	margin-bottom: 15px;
 }
 .img_bio{
 	width: 275px;
