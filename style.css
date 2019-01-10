@@ -4,11 +4,11 @@
 	max-height: 550px;
 }
 .carousel-item img {
-	max-height: 500px;	
+	max-height: 500px;
 }
 /* css galeries */
 .gal{
-	margin: auto 5%;	
+	margin: auto 5%;
 	box-shadow: 10px 10px 3px lightgrey;
 }
 .my{
@@ -18,8 +18,6 @@
 .myright{
 	text-align: right;
 }
-
-
 
 
 /*css galeries*/
@@ -47,9 +45,9 @@ nav#viveleriz{
 .navbar li{
 	text-align: center;
 	margin-left: 10%;
-	
-	
-}	
+
+
+}
 .nav-link{
 	color: black;
 }
@@ -67,6 +65,3 @@ footer a{
 	color: white;
 	font-weight: bold;
 }
-
-
-
