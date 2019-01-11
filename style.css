@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Charm');
+
+body{
+    font-family: 'Charm', cursive;
+}
 
 /** HEADER **/
 .carousel-item active{
@@ -34,7 +39,7 @@ img.coco1{
 }
 .navbarGlobal{
 	padding: 15px;
-	font-size: 1.7em;
+	font-size: 2.5em;
 	color: black;
 }
 .navbarGlobal:hover{
@@ -130,14 +135,48 @@ hr{
 	background-color: #007b5e;
 	width:75%;
 }
+.cui{
+    margin-top: 50px;
+	margin-bottom: 50px;
+}
+#what-we-do .card-text{
+	font-family: arial;
+}
+
+
 
 
 /* procéder */
 
 
-	
 
 
+.gal{
+	margin: 3% 5% 5% 5%;
+	box-shadow: 4px 5px 3px lightgrey;
+
+}
+.my{
+	border-bottom : 5px solid lightgrey;
+	border-left : 5px solid rgb(59, 59, 59);
+	position: center;
+}
+.myright{
+	text-align: right;
+	margin: 1em 0 0 0;
+}
+.carousel-caption h3{
+	font-size: 4ch;
+	animation-delay: 1s;
+	color: black;
+	font-weight: bolder;
+	text-shadow: 3px 2PX #fff;
+}
+.col-6 {
+	border: 2px solid lightgrey;
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
 
 
@@ -179,16 +218,18 @@ div.copy{
 .socialMedia{
 	position: fixed;
 	display: flex;
-	background: #444444;
+    background-color: transparent;
 	flex-direction: column;
 	border-radius: 5px;
 	right: 0%;
 	top: 70%;
 	z-index: 3;
+
 }
 .imgMedia{
 	margin: 10px;
 	height: 50px;
+
 }
 
 /* biographie */
@@ -199,6 +240,7 @@ article .bloc_bio{
 .bloc_bio p{
 	font-size: 1.1em;
 	text-align: justify;
+    font-family: arial;
 }
 .bloc_bio h2{
 	text-align: center;
@@ -260,41 +302,45 @@ article .bloc_bio{
 
 
 /*Formulaire de Contact*/
-.formFont{
+h2#rom{
+	margin-top:50px; margin-bottom:10px;
 	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	font-size: 5em;
+}
+.formFont{
+
 	font-size: 2em;
 }
 .formContact{
-	background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(245, 246, 248, 0.50), 
-      rgba(245, 246, 248, 0.50)
-	),
-	url(IMG/macaron.jpg);
+	background-image:
+		/* top, transparent red */
+			linear-gradient(
+					rgba(245, 246, 248, 0.50),
+					rgba(245, 246, 248, 0.50)
+			),
+			url(IMG/macaron.jpg);
 	/*background-color: rgba(245, 246, 248,1); */
 }
 .text-muted{
 	color:black;
 }
+
 .btnSend{
-	background-color: rgba(179, 183, 191,1); 
+	background-color: rgba(179, 183, 191,1);
 	border: 0;
+	font-size: 1.5em;
+	font-family: 'Acme', sans-serif;
 }
 .btnSend:hover{
 	background-color: rgb(148, 167, 206);
+
+}
+textarea{
+	font-family: arial;
+}
+input{
+	font-family: arial;
 }
 
-/* css galeries */
-.gal{
-	margin: auto 10%;	
-	box-shadow: 10px 10px 3px lightgrey;
-}
-.my{
-	border-bottom : 5px solid lightgrey;
-	border-left : 5px solid lightgrey;
-}
-.myright{
-	text-align: right;
-}
 /*css galeries*/
