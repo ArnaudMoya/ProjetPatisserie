@@ -18,7 +18,10 @@
 .myright{
 	text-align: right;
 }
-
+.carousel-caption h2, .carousel-caption h3{
+	animation-delay: 1s;
+	background-color: rgba(000, 000, 000, 0.5);
+}
 
 /*css galeries*/
 img.coco{
