@@ -168,6 +168,7 @@ font-size: 1rem;
 text-align: center;
 vertical-align: bottom;
 color: white;
+margin-bottom: 0px;
 }
 div.copy{
 	height: 20%;
