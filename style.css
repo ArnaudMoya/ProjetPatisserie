@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Charm');
+
+body{
+    font-family: 'Charm', cursive;
+}
+
 /** HEADER **/
 .carousel-item active{
 	width: 100%;
@@ -33,7 +39,7 @@ img.coco1{
 }
 .navbarGlobal{
 	padding: 15px;
-	font-size: 1.7em;
+	font-size: 2.5em;
 	color: black;
 }
 .navbarGlobal:hover{
@@ -129,14 +135,48 @@ hr{
 	background-color: #007b5e;
 	width:75%;
 }
+.cui{
+    margin-top: 50px;
+	margin-bottom: 50px;
+}
+#what-we-do .card-text{
+	font-family: arial;
+}
+
+
 
 
 /* procéder */
 
 
-	
 
 
+.gal{
+	margin: 3% 5% 5% 5%;
+	box-shadow: 4px 5px 3px lightgrey;
+
+}
+.my{
+	border-bottom : 5px solid lightgrey;
+	border-left : 5px solid rgb(59, 59, 59);
+	position: center;
+}
+.myright{
+	text-align: right;
+	margin: 1em 0 0 0;
+}
+.carousel-caption h3{
+	font-size: 4ch;
+	animation-delay: 1s;
+	color: black;
+	font-weight: bolder;
+	text-shadow: 3px 2PX #fff;
+}
+.col-6 {
+	border: 2px solid lightgrey;
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
 
 
@@ -167,38 +207,57 @@ font-size: 1rem;
 text-align: center;
 vertical-align: bottom;
 color: white;
+margin-bottom: 0px;
 }
 div.copy{
 	height: 20%;
 	background-color: black;
 }
 
-/* biographie */
-article .biographie{
-	padding: 15px;
-	margin-top: 40px;
+/* Social Media */
+.socialMedia{
+	position: fixed;
+	display: flex;
+    background-color: transparent;
+	flex-direction: column;
+	border-radius: 5px;
+	right: 0%;
+	top: 70%;
+	z-index: 3;
+
 }
+.imgMedia{
+	margin: 10px;
+	height: 50px;
+
+}
+
+/* biographie */
 article .bloc_bio{
 	margin-bottom: 75px;
 	margin-top: 75px;
 }
 .bloc_bio p{
-	width: 700px;
 	font-size: 1.1em;
 	text-align: justify;
+    font-family: arial;
 }
 .bloc_bio h2{
 	text-align: center;
-	margin-bottom: 15px;
+	font-family: 'Great Vibes', cursive;
+	text-decoration: underline;
 }
 .img_bio{
-	width: 250px;
+	width: 275px;
 }
 .img_bio:hover{
 	-webkit-filter: blur(2px);
-	width: 250px;
+	width: 275px;
 }
-
+.border_bio{
+	padding: 1px 75px 10px 50px;
+	box-shadow: 0px 0px 10px 1px;
+}
 
 /** Small devices (landscape phones, 576px and up) **/
 @media (max-width: 576px) { 
@@ -241,6 +300,7 @@ article .bloc_bio{
 }
 }
 
+
 /*Formulaire de Contact*/
 h2#rom{
 	margin-top:50px; margin-bottom:10px;
@@ -249,17 +309,17 @@ h2#rom{
 	font-size: 5em;
 }
 .formFont{
+
 	font-size: 2em;
 }
 .formContact{
-	 
-	background-image: 
-    /* top, transparent red */
-    linear-gradient(
-      rgba(245, 246, 248, 0.50), 
-      rgba(245, 246, 248, 0.50)
-	),
-	url(IMG/macaron.jpg);
+	background-image:
+		/* top, transparent red */
+			linear-gradient(
+					rgba(245, 246, 248, 0.50),
+					rgba(245, 246, 248, 0.50)
+			),
+			url(IMG/macaron.jpg);
 	/*background-color: rgba(245, 246, 248,1); */
 }
 .text-muted{
@@ -267,12 +327,20 @@ h2#rom{
 }
 
 .btnSend{
-	background-color: rgba(179, 183, 191,1); 
+	background-color: rgba(179, 183, 191,1);
 	border: 0;
 	font-size: 1.5em;
 	font-family: 'Acme', sans-serif;
 }
 .btnSend:hover{
 	background-color: rgb(148, 167, 206);
-	
+
 }
+textarea{
+	font-family: arial;
+}
+input{
+	font-family: arial;
+}
+
+/*css galeries*/
