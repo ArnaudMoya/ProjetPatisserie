@@ -7,31 +7,80 @@
 	max-height: 500px;
 }
 /* css galeries */
+
 .gal{
 	margin: 3% 5% 5% 5%;
-	box-shadow: 4px 5px 3px lightgrey;
+
 
 }
+.effect
+{
+  position: relative;
+}
+.effect:before, .effect:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  box-shadow: 0 35px 20px #777;
+  transform: rotate(-8deg);
+}
+.effect:after
+{
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
 .my{
 	border-bottom : 5px solid lightgrey;
 	border-left : 5px solid rgb(59, 59, 59);
-	position: center;
+	
 }
 .myright{
-	text-align: right;
+	text-align: center;
 	margin: 1em 0 0 0;
-}
-.carousel-caption h3{
-	font-size: 4ch;
-	animation-delay: 1s;
-	color: black;
 	font-weight: bolder;
-	text-shadow: 3px 2PX #fff;
+	text-transform: uppercase;
+	text-shadow: 0px 8px 5px #777;
+
 }
+
+.carousel-caption h3{
+	font-family: 'Charm', cursive;
+	font-size: 150%;
+	animation-delay: 0.5s;
+
+	font-weight: bolder;
+	text-transform: uppercase;
+	-webkit-text-stroke: 1px grey;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 2px;
+
+	 
+}
+
 .col-6 {
 	border: 2px solid lightgrey;
 	padding-left: 0px;
 	padding-right: 0px;
+	
+}
+.fa-angle-double-right,
+.fa-angle-double-left{
+	font-size: 50px;
+	color: rgb(226, 68, 19);
+	height: 100px;
+	width: 100px;
+	
+	background-size: 1em 1em;
+	
 }
 
 
