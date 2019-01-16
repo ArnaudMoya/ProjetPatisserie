@@ -233,9 +233,9 @@ div.copy{
 }
 
 /* biographie */
-article .bloc_bio{
-	margin-bottom: 75px;
-	margin-top: 75px;
+article .text_bio{
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 .bloc_bio p{
 	font-size: 1.1em;
@@ -249,9 +249,16 @@ article .bloc_bio{
 }
 .img_bio{
 	width: 275px;
+	filter: sepia(1);
+	-webkit-filter: sepia(1);
+}
+.img_bio_logo{
+	width: 275px;
 }
 .img_bio:hover{
-	-webkit-filter: blur(2px);
+	filter: sepia(0);
+	-webkit-filter: sepia(0);
+	transition: ease 1.5s;
 	width: 275px;
 }
 .border_bio{
