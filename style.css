@@ -264,6 +264,7 @@ article .text_bio{
 .border_bio{
 	padding: 1px 75px 10px 50px;
 	box-shadow: 0px 0px 10px 1px;
+	margin-bottom: 10px;
 }
 
 /** Small devices (landscape phones, 576px and up) **/
@@ -310,7 +311,8 @@ article .text_bio{
 
 /*Formulaire de Contact*/
 h2#rom{
-	margin-top:50px; margin-bottom:10px;
+	margin-top:50px; 
+	margin-bottom:10px;
 	font-family: 'Great Vibes', cursive;
 	text-align: center;
 	font-size: 5em;
@@ -320,6 +322,7 @@ h2#rom{
 	font-size: 2em;
 }
 .formContact{
+	box-shadow: 0px 0px 10px 1px;
 	background-image:
 		/* top, transparent red */
 			linear-gradient(
