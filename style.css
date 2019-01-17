@@ -1,52 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Charm');
 
-body {
-	font-family: 'Charm', cursive;
+body{
+    font-family: 'Charm', cursive;
 }
 
 /** HEADER **/
-.carousel-item active {
+.carousel-item active{
 	width: 100%;
 	max-height: 400px;
-
-
+	
+	
 }
-
 .carousel-item img {
-	max-height: 550px;
+	max-height: 550px;	
 }
 
 
-img.coco {
+img.coco{
 	height: 25%;
 	width: 25%;
 	margin-bottom: 8%;
 }
-
-h2#Natharine {
+h2#Natharine{
 	font-size: 3em;
 	font-family: 'Great Vibes', cursive;
 	color: black;
 }
 
-img.coco1 {
+img.coco1{
 	margin-bottom: 3%;
 	height: 25%;
 	width: 25%;
 }
 
 /* navbar */
-.navbar li {
+.navbar li{
 	text-align: center;
 }
-
-.navbarGlobal {
+.navbarGlobal{
 	padding: 15px;
 	font-size: 2.5em;
 	color: black;
 }
-
-.navbarGlobal:hover {
+.navbarGlobal:hover{
 	text-decoration: underline;
 }
 
@@ -57,110 +53,93 @@ img.coco1 {
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 
-section .section-title {
-	text-align: center;
+section .section-title{
+	text-align:center;
 	color: black;
-	margin-bottom: 50px;
-	font-family: fantasy;
+	margin-bottom:50px;
+    font-family: fantasy;
 	font-weight: bold;
-
+	
 }
-
-#what-we-do {
-	background: #ffffff;
+#what-we-do{
+	background:#ffffff;
 }
-
-#what-we-do .card {
-	padding: 1rem !important;
+#what-we-do .card{
+	padding: 1rem!important;
 	border: none;
-	margin-bottom: 1rem;
+	margin-bottom:1rem;
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
 }
-
-#what-we-do .card:hover {
+#what-we-do .card:hover{
 	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 }
-
-#what-we-do .card .card-block {
+#what-we-do .card .card-block{
 	padding-left: 50px;
-	position: relative;
+    position: relative;
 }
-
-#what-we-do .card .card-block a {
+#what-we-do .card .card-block a{
 	color: #007b5e !important;
-	font-weight: 700;
-	text-decoration: none;
+	font-weight:700;
+	text-decoration:none;
 }
-
-#what-we-do .card .card-block a i {
-	display: none;
-
+#what-we-do .card .card-block a i{
+	display:none;
+	
 }
-
-#what-we-do .card:hover .card-block a i {
-	display: inline-block;
-	font-weight: 700;
-
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
 }
-
-#what-we-do .card .card-block:before {
+#what-we-do .card .card-block:before{
 	font-family: FontAwesome;
-	position: absolute;
-	font-size: 39px;
-	color: #007b5e;
-	left: 0;
+    position: absolute;
+    font-size: 39px;
+    color: #007b5e;
+    left: 0;
 	-webkit-transition: -webkit-transform .2s ease-in-out;
-	transition: transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
 }
-
-#what-we-do .card .block-1:before {
-	content: "🍫";
+#what-we-do .card .block-1:before{
+    content: "🍫";
 }
-
-#what-we-do .card .block-2:before {
-	content: "🥐";
+#what-we-do .card .block-2:before{
+    content: "🥐";
 }
-
-#what-we-do .card .block-3:before {
-	content: "🥨";
+#what-we-do .card .block-3:before{
+    content: "🥨";
 }
-
-#what-we-do .card .block-4:before {
-	content: "✅";
+#what-we-do .card .block-4:before{
+    content: "✅";
 }
-
-#what-we-do .card .block-5:before {
-	content: "⏳";
+#what-we-do .card .block-5:before{
+    content: "⏳";
 }
-
-#what-we-do .card .block-6:before {
-	content: "📜";
+#what-we-do .card .block-6:before{
+    content: "📜";
 }
-
-#what-we-do .card:hover .card-block:before {
+#what-we-do .card:hover .card-block:before{
 	-webkit-transform: rotate(360deg);
-	transform: rotate(360deg);
+	transform: rotate(360deg);	
 	-webkit-transition: .6s all ease;
 	-moz-transition: .6s all ease;
 	transition: .6s all ease;
 }
 
-hr {
+hr{
 	height: 2px;
 	background-color: #007b5e;
-	width: 75%;
+	width:75%;
 }
-
-.cui {
-	margin-top: 50px;
+.cui{
+    margin-top: 50px;
 	margin-bottom: 50px;
 }
-
-#what-we-do .card-text {
+#what-we-do .card-text{
 	font-family: arial;
 }
 
@@ -172,31 +151,27 @@ hr {
 
 
 
-.gal {
+.gal{
 	margin: 3% 5% 5% 5%;
 	box-shadow: 4px 5px 3px lightgrey;
 
 }
-
-.my {
-	border-bottom: 5px solid lightgrey;
-	border-left: 5px solid rgb(59, 59, 59);
+.my{
+	border-bottom : 5px solid lightgrey;
+	border-left : 5px solid rgb(59, 59, 59);
 	position: center;
 }
-
-.myright {
+.myright{
 	text-align: right;
 	margin: 1em 0 0 0;
 }
-
-.carousel-caption h3 {
+.carousel-caption h3{
 	font-size: 4ch;
 	animation-delay: 1s;
 	color: black;
 	font-weight: bolder;
 	text-shadow: 3px 2PX #fff;
 }
-
 .col-6 {
 	border: 2px solid lightgrey;
 	padding-left: 0px;
@@ -207,48 +182,43 @@ hr {
 
 
 /* footer */
-footer {
+footer{
 	background: url(IMG/macaron.jpg)
 }
-
-footer ul {
-
+footer ul{
+	
 	list-style-type: none;
 	width: 100%;
 }
-
-footer a {
+footer a{
 	color: white;
 	font-weight: bold;
 }
-
-.card-img {
-	width: 100%;
-	height: 180px;
-	object-fit: cover;
-	filter: sepia(1);
-	-webkit-filter: sepia(1);
+.card-img{
+	width: 100%; 
+height: 180px; 
+object-fit: cover; 
+filter: sepia(1);
+-webkit-filter: sepia(1);
 
 }
-
-#Copy {
-	font-size: 1rem;
-	text-align: center;
-	vertical-align: bottom;
-	color: white;
-	margin-bottom: 0px;
+#Copy{
+font-size: 1rem;
+text-align: center;
+vertical-align: bottom;
+color: white;
+margin-bottom: 0px;
 }
-
-div.copy {
+div.copy{
 	height: 20%;
 	background-color: black;
 }
 
 /* Social Media */
-.socialMedia {
+.socialMedia{
 	position: fixed;
 	display: flex;
-	background-color: transparent;
+    background-color: transparent;
 	flex-direction: column;
 	border-radius: 5px;
 	right: 0%;
@@ -256,136 +226,131 @@ div.copy {
 	z-index: 3;
 
 }
-
-.imgMedia {
+.imgMedia{
 	margin: 10px;
 	height: 50px;
 
 }
 
 /* biographie */
-article .bloc_bio {
-	margin-bottom: 75px;
-	margin-top: 75px;
+article .text_bio{
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
-
-.bloc_bio p {
+.bloc_bio p{
 	font-size: 1.1em;
 	text-align: justify;
-	font-family: arial;
+    font-family: arial;
 }
-
-.bloc_bio h2 {
+.bloc_bio h2{
 	text-align: center;
 	font-family: 'Great Vibes', cursive;
 	text-decoration: underline;
 }
-
-.img_bio {
+.img_bio{
+	width: 275px;
+	filter: sepia(1);
+	-webkit-filter: sepia(1);
+}
+.img_bio_logo{
 	width: 275px;
 }
-
-.img_bio:hover {
-	-webkit-filter: blur(2px);
+.img_bio:hover{
+	filter: sepia(0);
+	-webkit-filter: sepia(0);
+	transition: ease 1.5s;
 	width: 275px;
 }
-
-.border_bio {
+.border_bio{
 	padding: 1px 75px 10px 50px;
 	box-shadow: 0px 0px 10px 1px;
+	margin-bottom: 10px;
 }
 
 /** Small devices (landscape phones, 576px and up) **/
-@media (max-width: 576px) {
-	.card-img {
-		height: 150px;
-	}
-
-	.carousel-item img {
-		height: 230px;
-	}
+@media (max-width: 576px) { 
+.card-img{
+	height: 150px;
+}
+.carousel-item img{
+	height: 230px;
+}
 }
 
 
-
+ 
 
 /** Medium devices (tablets, 768px and up) **/
-@media (min-width: 768px) {
-	.card-img {
-		height: 150px;
-	}
-
-	.carousel-item img {
+@media (min-width: 768px) { 
+	.card-img{height: 150px;}
+	.carousel-item img{
 		height: 350px;
 	}
-
-}
+	
+ }
 
 /** Large devices (desktops, 992px and up) **/
 @media (min-width: 992px) {
-	.card-img {
-		height: 150px;
-	}
+.card-img{
+	height: 150px;
+}
 }
 
-
+ 
 
 /** Extra large devices (large desktops, 1200px and up) **/
 @media (min-width: 1200px) {
-	.card-img {
-		height: 150px;
-	}
-
-	.carousel-item img {
-		height: 550px;
-	}
+.card-img{
+	height: 150px;
+}
+.carousel-item img{
+	height: 550px;
+}
 }
 
 
 /*Formulaire de Contact*/
-h2#rom {
-	margin-top: 50px;
-	margin-bottom: 10px;
+h2#rom{
+	margin-top:50px; 
+	margin-bottom:10px;
 	font-family: 'Great Vibes', cursive;
 	text-align: center;
 	font-size: 5em;
 }
-
-.formFont {
+.formFont{
 
 	font-size: 2em;
 }
-
-.formContact {
+.formContact{
+	box-shadow: 0px 0px 10px 1px;
 	background-image:
 		/* top, transparent red */
-		linear-gradient(rgba(245, 246, 248, 0.50),
-		rgba(245, 246, 248, 0.50)),
-		url(IMG/macaron.jpg);
+			linear-gradient(
+					rgba(245, 246, 248, 0.50),
+					rgba(245, 246, 248, 0.50)
+			),
+			url(IMG/macaron.jpg);
 	/*background-color: rgba(245, 246, 248,1); */
 }
-
-.text-muted {
-	color: black;
+.text-muted{
+	color:black;
 }
 
-.btnSend {
-	background-color: rgba(179, 183, 191, 1);
+.btnSend{
+	background-color: rgba(179, 183, 191,1);
 	border: 0;
 	font-size: 1.5em;
 	font-family: 'Acme', sans-serif;
 }
-
-.btnSend:hover {
+.btnSend:hover{
 	background-color: rgb(148, 167, 206);
 
 }
-
-textarea {
+textarea{
+	font-family: arial;
+}
+input{
 	font-family: arial;
 }
 
-input {
-	font-family: arial;
-}
 /*css galeries*/
