@@ -1,24 +1,41 @@
+
 function sendMailHtml() {
+
     var name = document.getElementById('ImputName').value;
     var email = document.getElementById('InputEmail').value;
     var object = document.getElementById('ImputObject').value;
     var text = document.getElementById('comment').value;
 
-    if (name == "") {
-        alert("Veuillez préciser votre nom");
-        return false;
+
+    let varName = "";
+    let varEmail = "";
+    let varObject = "";
+    let varText = "";
+    let count = 0;
+
+    if (name === "") {
+        varName = "Nom";
+        count = count + 1;
     }
-    if (email == "") {
-        alert("Veuillez préciser votre mail");
-        return false;
+    if (email === "" ) {
+        varEmail = "email";
+        count = count + 1;
     }
-    if (object == "") {
-        alert("Veuillez préciser l'objet de votre demande");
-        return false;
+    if (email.search("@") < 2 ){
+        alert("Veuillez entrer un mail valide");
+        return;
     }
-    if (text == "") {
-        alert("Veuillez préciser votre message");
-        return false;
+    if (object === "") {
+        varObject = "objet";
+        count = count + 1;
+    }
+    if (text === "") {
+        varText = "message";
+        count = count + 1;
+    }
+
+    if (count !== 0) {
+        alert("Veuillez préciser votre " + varName + " " + varEmail + " " + varObject + " " + varText);
     } else {
         alert("Votre message a été envoyé !!" + '\n' + '\n' + "Voici votre message :" + '\n' + "Email : " + email + '\n' + "Objet : " + object + '\n' + '\n' + text);
     }
