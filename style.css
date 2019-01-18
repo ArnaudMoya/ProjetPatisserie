@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Charm');
-
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 body{
     font-family: 'Charm', cursive;
 }
@@ -47,10 +47,11 @@ img.coco1{
 }
 
 
-/**********************
-/***** Services *******
+/**********************/
+/***** Services *******/
 /*********************/
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
 
 
 section .section-title{
